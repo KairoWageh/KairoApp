@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Scroll"
+        android:background="#b71c1c"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Third item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fifth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sixth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seventh item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eighth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Third item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fifth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sixth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seventh item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eighth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vertical Scroll"
+        android:background="#b71c1c"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Second item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Third item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fifth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sixth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seventh item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eighth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ninth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tenth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sara"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ola"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hoda"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esraa"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alaa"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soha"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Second item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Third item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fifth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sixth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seventh item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eighth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ninth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tenth item"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sara"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ola"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hoda"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esraa"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alaa"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soha"
+                android:background="#3f51b5"
+                android:padding="3dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

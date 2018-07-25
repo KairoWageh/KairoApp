@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق كايرو</string>
+    <string name="welcome_message">سجل دخول الى تطبيقى</string>
+    <string name="hint_user_name">اﻻسم</string>
+    <string name="hint_user_password">كلمة السر</string>
+    <string name="login_button">دخول</string>
+    <string name="items">العناصر</string>
+    <string name="location">الموقع</string>
+    <string name="users">المستخدمين</string>
+    <string name="title_activity_maps">الخريطة</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">ﻻ يوجد اتصال باﻻنترنت</string>
+</resources>
